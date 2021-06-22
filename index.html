@@ -4,8 +4,10 @@
    <meta charset="UTF-8">
    <title>Web開発の練習</title>
    <link rel="stylesheet" href="mystyle.css"><!--この行を追加-->
+   <!--<scrip src="myjs.js"></scrip>-->
    <script src="ex6-1.js"></script>
    <script src="ex6-5.js"></script>
+   <script src="ex06-7.js"></script>
  </head>
  <body>
    <br>
@@ -19,6 +21,7 @@
       <li>ほげほげ</li>
       <li>ほにゃらら</li>
    </ol>
+   <script src="myjs.js"></script>
    <a id="abc">ここがabcの場所</a>
    <br>
      <h1>練習問題2.3</h1>
@@ -210,7 +213,7 @@
    </nav>
    <!--
      <h1>イベントハンドラの練習</h1>
-     <input type="button" value="ここをクリック"onclick="alert('Hello,Osamu!')">
+     <input type="button" value="ここをクリック" ondblclick="alert('Hello,Osamu!');">
    -->
    <input type="button" value="ここをクリック" onclick="sayhello();sayhello();">
    <input type="button" value="ここをクリック" onclick="saygoodbye();">
@@ -219,5 +222,9 @@
    <input type="button" value="あいさつ" onclick="sayhello65();">
    <input type="button" value="太朗" onclick="taro65();">
    <input type="button" value="花子" onclick="hanako65();">
+   <h1>引数の練習</h1>
+   <input type="button" value="あいさつ" onclick="sayhello67();">
+   <input type="button" value="太朗" onclick="someone('太郎');">
+   <input type="button" value="花子" onclick="someone('花子');">
  </body>
 </html> 
